@@ -1,0 +1,259 @@
+/*
+Theme Name: phlat
+Theme URI: (Your theme url)
+Author: Jenni White
+Author URI: (Your page url)
+Description: This theme is full of awesome. That's all ya need to know!
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: tags, if, for, searching, on, wordpress, if, you, launch, it
+Text Domain: (unique name for your theme, for separation. also used for transalation file)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**** OVERALL STYLING ****/
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+.container {
+	overflow: auto;
+	max-width: 1260px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+/**** FONT STYLING ****/
+
+@font-face {
+  font-family: 'Decorative';
+  src: url('fonts/gogoia-deco?') format('eot'), url('fonts/gogoia-deco.woff') format('woff'), url('fonts/gogoia-deco.ttf') format('truetype');
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+/**** TOP NAV STYLING ****/
+
+header.nav-bar {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: white;
+}
+
+.nav-bar.container {
+  	padding-left: 140px;
+  	padding-right: 140px;
+}
+
+.top-menu {
+	float: right;
+	width: auto;
+	margin-right: 80px; 
+}
+
+.top-menu > ul {
+	width: auto;
+	float: right;
+}
+
+.top-menu ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+.top-menu a {
+	color: rgb(39, 215, 195);
+	text-decoration: none;
+	margin-left: 30px;
+	font-weight: bold; 
+
+}
+
+.top-menu a:hover, .top-menu a:active {
+	border-bottom: 3px solid rgb(28, 96, 165);
+}
+
+/**** MAIN GREETING + HOME CONTENT STYLING ****/
+
+.main-greeting {
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.greeting-text {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+ 	transform: translate(-50%, -50%);
+}
+
+.greeting-text > h1 {
+	font-size: 4em;
+}
+
+
+.greeting-text > h2 {
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.home-content {
+	margin: 30px auto 50px auto;
+	width: 100%;
+	font-family: 'Roboto Slab', serif;
+	overflow: auto;
+	text-align: center;
+}
+
+.special-font {
+	font-family: 'Decorative';
+	color: rgb(252, 81, 81);
+}
+
+.sparks {
+	display: inline;
+	width: 500px;
+}
+
+
+/**** FOOTER STYLING ****/
+
+footer {
+	background-color: rgb(28, 96, 165);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer.container {
+  	overflow: auto;
+	max-width: 1260px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.bottom-menu {
+	width: auto;
+	margin-top: 20px;
+	margin-left: 40px;
+	color: rgb(98, 156, 213);
+	height: 100px;
+}
+
+/*.bottom-menu > ul {
+	width: auto;
+	float: left;
+}
+
+.bottom-menu > ul > li {
+	display: block;
+	padding: 5px;
+}
+
+.bottom-menu a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.bottom-menu a:hover {
+	color: #f7e263;
+}*/
+
+
+
+/**** Other ****/
+
+
+.scroll-arrow {
+	color: rgb(39, 215, 195);
+}
+
+.sparks-tiny {
+	width: 100px;
+	float: left;
+	left: 200px;
+}
+
+/**** POST CONTENT STYLING ****/
+
+.blog-page {
+	margin-top: 80px;
+}
+
+.post-title {
+	font-size: 3em;
+}
+
+.post-title > a {
+	text-decoration: none;
+	color: rgb(252, 81, 81);
+}
+
+.post-title > a:hover {
+	text-decoration: none;
+	color: rgb(252, 81, 100);
+}
+
+.post-date {
+	font-weight: 400;
+}
+
+.post-paragraph + p {
+	font-weight: 300;
+	line-height: 1.5;
+	font-size: 1.2em;
+}
+
+.post-paragraph + p:after {
+	content: '------';
+	display: block;
+	font-weight: 400;
+	font-size: 2.8em;
+	color: rgb(172, 181, 180);
+}
+
+.post-thumb {
+	height: 200px;
+}
+
+/**** PORTFOLIO STYLING ****/
+
+.project-container {
+	float: left;
+  	margin: 1%;
+  	position: relative;
+  	width: 23%;
+  	overflow: hidden;
+}
+
+.project-container img {
+	max-width: 100%;
+  	width: 200px; 
+}
+
+.project-container:hover {
+	background-color: rgba(39,62,84,0.82);
+	z-index: 10;
+}
+
+/**** Found Online ****/
+
+
+
+
+

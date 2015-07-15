@@ -1,0 +1,93 @@
+/*BOX*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*CONTAINERS*/
+.container {
+    margin: 0;
+    max-width: 1200px;
+}
+
+/*.column > .row {
+    margin-left: -10px;
+    margin-right: -10px;
+}*/
+
+/*ROWS*/
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*COLUMNS*/
+.column {
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+.one-twelfth {
+    width: 8.33%;
+}
+.one-eighth {
+    width: 12.5%;
+}
+.one-sixth {
+    width: 16.66%;
+}
+.one-fifth {
+    width: 20%;
+}
+.one-fourth {
+    width: 25%;
+}
+.one-third {
+    width: 33.33%;
+}
+.three-eighths {
+	width: 37.5%;
+}
+.two-fifths {
+    width: 40%;
+}
+.one-half {
+    width: 50%;
+}
+.two-thirds {
+	width: 66.67%;
+}
+.three-fourths {
+    width: 75%;
+}
+
+/*OFFSETS*/
+.offset-one-twelfth {
+    margin-left: 8.33%;
+}
+.offset-one-eighth {
+    margin-left: 12.5%;
+}
+.offset-one-sixth {
+    margin-left: 16.66%;
+}
+.offset-one-fourth {
+    margin-left: 25%;
+}
+.offset-one-third {
+    margin-left: 33.3%;
+}
+.offset-three-eighths {
+	margin-left: 37.5%;
+}
+.offset-one-half {
+    margin-left: 50%;
+}
+.offset-two-thirds {
+	margin-left: 66.67%;
+}
