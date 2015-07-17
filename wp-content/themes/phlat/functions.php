@@ -81,6 +81,7 @@ function phlat_widgets_init() {
 }
 add_action( 'widgets_init', 'phlat_widgets_init' );
 
+remove_filter( 'the_content', 'wpautop' );
 /**
  * Enqueue scripts and styles.
  *

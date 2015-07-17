@@ -16,6 +16,7 @@
 <body>
 <header class='nav-bar'>
 	<div class='container'>
+		<h1 class='logo'><a href='http://myblog.dev/'>jtw</a></h1>
 		<nav class='top-menu'>
 			
 			<?php

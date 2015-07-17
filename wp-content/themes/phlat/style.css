@@ -87,6 +87,16 @@ header.nav-bar {
 	border-bottom: 3px solid rgb(28, 96, 165);
 }
 
+.logo {
+	float: left;
+  	margin-left: 80px;
+}
+
+.logo a {
+	text-decoration: none;
+	color: rgb(28, 96, 165);
+}
+
 /**** MAIN GREETING + HOME CONTENT STYLING ****/
 
 .main-greeting {
@@ -155,27 +165,6 @@ footer.container {
 	height: 100px;
 }
 
-/*.bottom-menu > ul {
-	width: auto;
-	float: left;
-}
-
-.bottom-menu > ul > li {
-	display: block;
-	padding: 5px;
-}
-
-.bottom-menu a {
-	color: #ffffff;
-	text-decoration: none;
-}
-
-.bottom-menu a:hover {
-	color: #f7e263;
-}*/
-
-
-
 /**** Other ****/
 
 
@@ -191,7 +180,7 @@ footer.container {
 
 /**** POST CONTENT STYLING ****/
 
-.blog-page {
+.page-content {
 	margin-top: 80px;
 }
 
@@ -213,13 +202,13 @@ footer.container {
 	font-weight: 400;
 }
 
-.post-paragraph + p {
+.post-paragraph {
 	font-weight: 300;
 	line-height: 1.5;
 	font-size: 1.2em;
 }
 
-.post-paragraph + p:after {
+.post-paragraph:after {
 	content: '------';
 	display: block;
 	font-weight: 400;
@@ -231,29 +220,57 @@ footer.container {
 	height: 200px;
 }
 
+/**** ABOUT STYLING ****/
+
+.about-title {
+	font-size: 4em;
+}
+
+.about-paragraph {
+	font-size: 1.2em;
+  	font-weight: 300;
+  	line-height: 1.4;
+}
+
+.about-photo {
+	border-radius: 30px;
+	margin-top: 20px;
+  	margin-bottom: 80px;
+}
+
 /**** PORTFOLIO STYLING ****/
 
-.project-container {
+.wrap {
+	overflow: hidden;
+	margin: 10px;
+}
+
+.photo-box {
 	float: left;
-  	margin: 1%;
   	position: relative;
-  	width: 23%;
+  	width: 20%;
+  	padding-bottom: 20%;
+}
+
+.portfolio-photo {
+  	position: absolute;
+  	left: 10px;
+  	right: 10px;
+  	top: 10px;
+  	bottom: 10px;
   	overflow: hidden;
 }
 
-.project-container img {
-	max-width: 100%;
-  	width: 200px; 
-}
-
-.project-container:hover {
-	background-color: rgba(39,62,84,0.82);
-	z-index: 10;
-}
 
 /**** Found Online ****/
 
 
+
+/**** OTHER! ****/
+
+.wrap {
+	height: 100%;
+}
 
 
 
