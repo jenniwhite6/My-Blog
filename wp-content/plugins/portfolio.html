@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href='portfolio-page/assets/css/portfolio.css'></style>
+</head>
+<body>
+	<div class='wrap'>
+		<div class='portfolio clearfix'>
+			<div class='portfolio-box'>
+				<img class='portfolio-image' src='../themes/phlat/img/sloth.png'>
+				<div class='info'></div>
+			</div>
+			<div class='portfolio-box'>
+				<img class='portfolio-image' src='../themes/phlat/img/sloth.png'>
+				<div class='info'></div>
+			</div>	
+			<div class='portfolio-box'>
+				<img class='portfolio-image' src='../themes/phlat/img/sloth.png'>
+				<div class='info'></div>
+			</div>	
+			<div class='portfolio-box'>
+				<img class='portfolio-image' src='../themes/phlat/img/sloth.png'>
+				<div class='info'></div>
+			</div>	
+		</div>
+	</div>
+	<script src='portfolio-page/assets/js/jquery.js'></script>
+	<script>
+		$('.portfolio-box').hover(
+			function() {
+				$(this).closest('.info').slideUp();
+			}, function() {
+				$(this).closest('.info').slideDown();
+		});
+	</script>
+</body>
+</html>

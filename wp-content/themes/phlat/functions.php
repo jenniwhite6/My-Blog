@@ -169,5 +169,6 @@ function phlat_search_form_modify( $html ) {
 }
 add_filter( 'get_search_form', 'phlat_search_form_modify' );
 
+
 ?>
 

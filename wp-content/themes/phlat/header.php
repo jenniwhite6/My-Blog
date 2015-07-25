@@ -4,6 +4,8 @@
 	<title><?php bloginfo('name'); ?><?php wp_title(''); ?></title>
 	<meta charset='utf-8'>
 	<meta name="description" content="Jenni White is a front-end developer with experience in education, business operations, and international studies.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<meta name="author" content="Jenni White">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@jenniwhite6">

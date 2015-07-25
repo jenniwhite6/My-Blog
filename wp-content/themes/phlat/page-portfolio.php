@@ -10,17 +10,10 @@
 
 <?php get_header(); ?>
 
-<section class='wrap'>
-	<div class='photo-box'>
-		<div class='portfolio-photo'>
-			<img src='<?= get_template_directory_uri(); ?>/img/sloth.png'>
-		</div>
-	</div>
-	<div class='photo-box'>
-		<div class='portfolio-photo'>
-			<img src='<?= get_template_directory_uri(); ?>/img/catcher.png'>
-		</div>
-	</div>
-</section>
+	<?php while (have_posts()) : the_post(); ?>
+		<section <?php post_class() ?>>
+			<?php the_content(); ?>
+		</section>
+	<?php endwhile; ?>
 
 <?php get_footer(); ?>
